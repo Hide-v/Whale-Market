@@ -9,7 +9,7 @@
 
 static const std::string filepath = "../../data/id.txt";
 
-void genID(std::string dest, char type)
+void getID(std::string dest, char type)
 {
     int uid = 0, gid = 0, oid = 0;
     std::fstream FILE;

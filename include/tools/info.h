@@ -3,13 +3,21 @@
 #define _INFO_H_
 #include <iostream>
 
+// helper macro for print
+#define print_header \
+    std::cout << divide << '\n'; \
+    std::cout << header << '\n'; \
+    std::cout << divide << std::endl;
+
+#define print_divide \
+    std::cout << divide << '\n';
 /**
  * @brief 生成一个给定类型ID
  * 
  * @param dest 储存ID的目标字符串
  * @param type ID类型，U-用户，G-商品，O-订单
  */
-void genID(std::string dest, char type);
+void getID(std::string dest, char type);
 
 /**
  * @brief 获取当前日期
