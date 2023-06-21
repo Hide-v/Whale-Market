@@ -11,8 +11,8 @@ static std::string filepath = "../../data/good.dat";
 static Good goods[MAX_GOOD];
 static int totalgood = 0;
 static const std::string stateName[] = {"Selling", "Sold", "Banned"};
-static const char* header = "|ID         |Name       |Price      |Date       |Seller     |State      |";
-static const char* divide = "+-----------+-----------+-----------+-----------+-----------+-----------+";
+static const std::string header = "|ID         |Name       |Price      |Date       |Seller     |State      |";
+static const std::string divide = "+-----------+-----------+-----------+-----------+-----------+-----------+";
 
 void pullGoods()
 {
