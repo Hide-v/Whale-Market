@@ -2,5 +2,6 @@
 #define _CONFIG_H_
 
 #define MAX_USER 128
+#define MAX_GOOD 128
 
 #endif
