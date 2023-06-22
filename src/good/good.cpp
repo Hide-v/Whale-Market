@@ -6,7 +6,7 @@
 #include <ios>
 #include <string>
 
-static std::string filepath = "../../data/good.dat";
+static std::string filepath = "../data/good.dat";
 
 static Good goods[MAX_GOOD];
 static int totalgood = 0;

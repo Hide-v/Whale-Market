@@ -4,7 +4,7 @@
 #include <iostream>
 #include <iomanip>
 
-static const std::string filepath = "../../data/user.dat";
+static const std::string filepath = "../data/user.dat";
 static User users[MAX_USER];
 static int totaluser = 0;
 

@@ -7,7 +7,7 @@
 #include <ctime>
 #include <time.h>
 
-static const std::string filepath = "../../data/id.txt";
+static const std::string filepath = "../data/id.txt";
 
 void getID(std::string dest, char type)
 {

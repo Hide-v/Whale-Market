@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iomanip>
 
-static const std::string filepath = "../../data/order.dat";
+static const std::string filepath = "../data/order.dat";
 static Order orders[MAX_ORDER];
 static int totalorder = 0;
 
