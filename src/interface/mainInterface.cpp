@@ -25,6 +25,6 @@ static void USER_SignUp() {
     delete u;
 }
 
-static HANDLER handler[] = {inv ,inv ,inv};
+static HANDLER handler[] = {USER_Login, USER_SignUp, ADMIN_Login};
 
 make_interface(M, AIN)
